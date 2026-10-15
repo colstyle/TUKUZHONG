@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "图库中",
+    "slug": "tukuzhong",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "“图库中”需要访问您的相册以读取照片与分类展示。",
+        "NSPhotoLibraryAddUsageDescription": "允许将照片写回相册。"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#08080A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "“图库中”需要访问相册以进行图谱聚类与浏览展示。",
+          "savePhotosPermission": "允许“图库中”保存图片。"
+        }
+      ],
+      "expo-router"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
