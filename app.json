@@ -14,6 +14,7 @@
       }
     },
     "android": {
+      "package": "com.colstyle.tukuzhong",
       "adaptiveIcon": {
         "backgroundColor": "#08080A",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -22,6 +23,7 @@
       },
       "permissions": [
         "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO",
         "READ_EXTERNAL_STORAGE"
       ],
       "predictiveBackGestureEnabled": false
