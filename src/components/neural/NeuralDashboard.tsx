@@ -238,18 +238,18 @@ export const NeuralDashboard: React.FC<NeuralDashboardProps> = ({
         <div className="veil" onClick={() => setModal(null)}>
           <section className="modal glass" role="dialog" aria-modal="true" onClick={e => e.stopPropagation()}>
             <header>
-              <h2>“图库中”设计理念 <em>Gallery Graph Philosophy</em></h2>
+              <h2>“图库中”设计理念</h2>
               <button className="icon-btn" onClick={() => setModal(null)} aria-label="关闭弹窗">
                 <Icon name="close" size={16} />
               </button>
             </header>
             <div className="about">
-              <p>名称：<strong>图库中 (TUKUZHONG)</strong> · 模式：神经网络图谱</p>
-              <p>核心理解：不是另一款按文件夹排列的相册，而是以图谱作为索引入口，以展厅作为观看方式。足迹、长卷、目录，分别提供空间、时间和来源这三种整理照片的视角。五个入口查看的是同一批作品，切换的是组织和浏览方式。</p>
+              <p>名称：<strong>图库中 (TUKUZHONG)</strong> · 模式：记忆图谱相册</p>
+              <p>核心理念：以图谱作为索引入口，以展厅作为观看方式。足迹、长卷、目录，分别提供空间、时间和来源三种整理照片的视角。五个入口查看的是同一批作品，切换的是组织和浏览方式。</p>
               <hr />
               <h3>五个视角 <em>Five Unified Perspectives</em></h3>
               <ul>
-                <li><b>图谱 (Graph)</b>：作品关系总览。照片是核心节点，按导入目录、拍摄时间、城市和相机型号建立真实关系，缺少元数据明确显示“未知”。保留“问问你的相册图谱”入口。</li>
+                <li><b>图谱 (Graph)</b>：作品关系总览。照片是核心节点，按导入目录、拍摄时间、城市和相机型号建立关联关系，缺少元数据明确显示“未知”。提供快速检索与筛选入口。</li>
                 <li><b>展厅 (Gallery)</b>：主要观赏体验。以单件作品为舞台，提供上一件/下一件、作品说明、拍摄日期与真实 EXIF；照片和视频在同一套流程中播放与观看。</li>
                 <li><b>足迹 (Footprints)</b>：空间聚集视角。未定位照片单独归入“未定位”，不混入地图（当前版本显示“功能开发中”）。</li>
                 <li><b>长卷 (Scroll)</b>：可连续阅读的时间叙事。以年、月作为章节骨架，节奏排版，点开前后浏览顺序与长卷完全一致。</li>

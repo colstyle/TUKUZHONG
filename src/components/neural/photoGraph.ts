@@ -129,7 +129,7 @@ export function buildPhotoGraph({
   };
 
   // 1. Central Core Node: 图库中
-  add({ id: 'core', kind: 'core', title: '图库中', short: '图库中心', path: '/', text: '图库中神经总览' });
+  add({ id: 'core', kind: 'core', title: '图库中', short: '图库中心', path: '/', text: '图库总览' });
 
   // 2. Root Category Anchors
   for (const f of FOLDERS) {

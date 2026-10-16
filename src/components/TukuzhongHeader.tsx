@@ -29,7 +29,7 @@ export const TukuzhongHeader: React.FC<TukuzhongHeaderProps> = ({
           </View>
           <View>
             <Text style={styles.brandTitle}>图库中</Text>
-            <Text style={styles.brandTag}>GALLERY GRAPH</Text>
+            <Text style={styles.brandTag}>TUKUZHONG</Text>
           </View>
         </View>
 

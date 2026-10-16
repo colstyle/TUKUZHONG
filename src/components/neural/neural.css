@@ -1,6 +1,6 @@
 @property --cx { syntax: '<percentage>'; inherits: false; initial-value: 50%; }
 @property --orb-m0 { syntax: '<percentage>'; inherits: true; initial-value: 70%; }
-/* 神经网络看板：中性深灰底、银灰光球、毛玻璃与辉光。 */
+/* 图库看板：中性深灰底、银灰光球、毛玻璃与质感线条。 */
 .neural {
   --bg: #0d0e0e; --bg-2: #161717; --teal: #252626;
   --glass: rgba(44, 45, 44, .5); --glass-strong: rgba(22, 23, 23, .9);

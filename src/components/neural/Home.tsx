@@ -842,7 +842,7 @@ export function Home({
     <section
       ref={stageRef}
       className={`home-stage stage-${stage} ${live.current.introSeen ? 'intro-done' : ''}`}
-      aria-label="相册神经图谱"
+      aria-label="相册图谱"
     >
       <div className="stage-bg" />
       <NetworkCanvas graph={graph} layout={layout} live={live} reduced={reduced} />
